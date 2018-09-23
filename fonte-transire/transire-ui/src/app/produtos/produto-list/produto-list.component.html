@@ -1,0 +1,21 @@
+
+<div class="form-row">
+  <div class="form-group col-md-10">
+    <input class="form-control" name="Nome" #Nome="ngModel" [(ngModel)]="produtoService.Nome"
+      placeholder="Nome" required>
+      <button (click)="pesquisar()">Pesuisar</button>
+  </div>
+</div>
+<table class="table table-sm table-hover">
+  <tr *ngFor="let produto of produtoService.produtoList">
+    <td>{{produto.Nome}}</td>
+    <td>
+      <a class="btn" (click)="showForEdit(produto)">
+        <i class="fa fa-pencil-square-o"></i>
+      </a>
+      <a class="btn text-danger" (click)="onDelete(produto.ProdutoID)">
+        <i class="fa fa-trash-o"></i>
+      </a>
+    </td>
+  </tr>
+</table>

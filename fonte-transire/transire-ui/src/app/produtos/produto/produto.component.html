@@ -1,0 +1,21 @@
+
+<form class="produto-form" #produtoForm="ngForm" (ngSubmit)="onSubmit(produtoForm)">
+  <input type="hidden" name="ProdutoID" #ProdutoID="ngModel" [(ngModel)]="produtoService.selectedProduto.ProdutoID">
+  <div class="form-row">
+    <div class="form-group col-md-10">
+      <input class="form-control" name="Nome" #Nome="ngModel" [(ngModel)]="produtoService.selectedProduto.Nome"
+        placeholder="Nome" (blur)="onBlurMethod()">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <button [disabled]="!produtoForm.valid" type="submit" class="btn btn-block btn-info">
+        <i class="fa fa-floppy-o"></i> Salvar</button>
+    </div>
+    <div class="form-group col-md-4">
+      <button type="button" class="btn btn-warning btn-block btn-secondary" (click)="resetForm(produtoForm)">
+        <i class=" fa-repeat"></i> Reset</button>
+
+    </div>
+  </div>
+</form>
