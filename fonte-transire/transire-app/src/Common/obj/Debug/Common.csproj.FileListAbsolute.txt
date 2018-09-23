@@ -1,0 +1,11 @@
+C:\Users\claudemirferreira\source\repos\dotnet-webapi-ef\src\Common\bin\Debug\Common.dll
+C:\Users\claudemirferreira\source\repos\dotnet-webapi-ef\src\Common\bin\Debug\Common.pdb
+C:\Users\claudemirferreira\source\repos\dotnet-webapi-ef\src\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\claudemirferreira\source\repos\dotnet-webapi-ef\src\Common\obj\Debug\Common.dll
+C:\Users\claudemirferreira\source\repos\dotnet-webapi-ef\src\Common\obj\Debug\Common.pdb
+C:\Users\claudemirferreira\source\repos\dotnet-webapi-ef\src\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\projetos\fonte-transire\transire-app\src\Common\bin\Debug\Common.dll
+D:\projetos\fonte-transire\transire-app\src\Common\bin\Debug\Common.pdb
+D:\projetos\fonte-transire\transire-app\src\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\projetos\fonte-transire\transire-app\src\Common\obj\Debug\Common.dll
+D:\projetos\fonte-transire\transire-app\src\Common\obj\Debug\Common.pdb
